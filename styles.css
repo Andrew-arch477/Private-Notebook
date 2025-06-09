@@ -1,0 +1,67 @@
+/* QWidget {
+    background-color: "white";
+    color: black;
+} */
+
+QPushButton {
+    font-size: 14px;
+    background-color: green;
+    border-radius: 5px;
+}
+#btn{
+    color: whitesmoke;
+}
+#btn:hover{
+    color:black;
+
+}
+
+
+#btn1 {
+    font-size: 14px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+#btn1{
+    color: whitesmoke;
+}
+#btn1:hover{
+    color:black;
+
+}
+
+#btn1:hover {
+    font-size: 14px;
+    background-color:rgb(255, 106, 47);
+    border-radius: 5px;
+}
+#btn1:pressed {
+    font-size: 13px;
+    background-color: "white";
+    border-radius: 13px;
+}
+
+
+
+QPushButton:hover {
+    color:rgb(100, 99, 99);
+    font-size: 13px;
+    background-color:greenyellow;
+    border-radius: 13px;
+}
+QPushButton:pressed {
+    font-size: 13px;
+    background-color: "white";
+    border-radius: 13px;
+}
+
+QLabel#Hallo_password_text{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 15;
+}
+
+
+
