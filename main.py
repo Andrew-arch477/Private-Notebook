@@ -17,8 +17,8 @@ from PyQt6.QtWidgets import (
     QListWidget
 )
 from login_window import LoginWindow
-from test import Save_Password
-from test_new import Enter_Save_Password
+from new_password import Save_Password
+from quastion import Enter_Save_Password
 from digital_secuare_diary_or_notebook import Personal_Diary
 
 
