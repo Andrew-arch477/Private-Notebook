@@ -22,22 +22,12 @@ from test_new import Enter_Save_Password
 from digital_secuare_diary_or_notebook import Personal_Diary
 
 
-#def show_Word():
-    #with open ('password.json') as file:
-        #data = json.load(file) 
-    #if log_wind.login.text() == data['password']:
-        #log_wind.hide()
-        #word.show()
-    #else:
-        #QMessageBox.information(log_wind, 'Error', 'Wrong password!')
-
 def show_Word():
     try:
         
         connection = sqlite3.connect('12.db')
         cursor = connection.cursor()
 
-        # Execute a query to retrieve the password
         cursor.execute("SELECT Password FROM Password;")
         result = cursor.fetchone()
 
@@ -57,7 +47,7 @@ def show_Word():
 
 
 def show_test():
-    with open ('the_flash_Zoom.json') as file:
+    with open ('password_name.json') as file:
         data = json.load(file) 
     if enter_create.word_login.text() == data['word']:
         enter_create.hide()

@@ -22,9 +22,6 @@ class Enter_Save_Password(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        with open("password.json", "r", encoding="utf-8") as file:
-            self.data = dict(json.load(file))
-
         self.word_login = QLineEdit(self)
         self.answer_btn = QPushButton('Answer')
         self.answer_btn.setObjectName('btn1')

@@ -45,6 +45,3 @@ class LoginWindow(QWidget):
         self.setLayout(main_line)
         self.setWindowTitle('Access')
 
-
-
-        

@@ -52,8 +52,3 @@ VALUES (?); """
             QMessageBox.information(self, 'Success', 'Text saved successfully.')
         except Exception as e:
             QMessageBox.critical(self, 'Error', f'An error occurred while saving the file:\n{str(e)}')
-
-        
-
-
-
